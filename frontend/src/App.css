@@ -1,0 +1,80 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+button {
+  background-color: #545454;
+  color: #fff;
+  border: none;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  font-size: 1.5em;
+  transition: background-color 300ms;
+}
+
+button:hover {
+  background-color: #000000;
+}
+
+button:active {
+  background-color: #000000;
+}
+
+input {
+  border: none;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  font-size: 1.5em;
+  transition: background-color 300ms;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  transition: background-color 300ms;
+  background-color: #545454;
+  font-size: 1.5em;
+}
+
+a:hover {
+  background-color: #000000;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: fit-content;
+  min-width: 20em;
+}
+
+.cont {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.read-the-docs {
+  color: #888;
+}
