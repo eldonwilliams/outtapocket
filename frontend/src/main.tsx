@@ -10,19 +10,19 @@ import Session from "./routes/Session";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/outtapocket",
     element: <App />,
   },
   {
-    path: "host",
+    path: "/outtapocket/host",
     element: <Host />,
   },
   {
-    path: "join",
+    path: "/outtapocket/join",
     element: <Join />,
   },
   {
-    path: "session",
+    path: "/outtapocket/session",
     element: <Session />,
   }
 ]);
